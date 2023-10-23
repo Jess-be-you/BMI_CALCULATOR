@@ -96,5 +96,7 @@ const bmiForm = document.getElementById("bmiForm");
                 bmiClassification.textContent = 'OBESITY';
             }
         }
+        clearResults();
 
         updateHeightInput();
+        
