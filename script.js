@@ -1,4 +1,4 @@
-const bmiForm = document.getElementById("bmiForm");
+        const bmiForm = document.getElementById("bmiForm");
         const heightUnitSelect = document.getElementById("heightUnit");
         const heightBlock = document.getElementById("heightBlock");
         const weightInput = document.getElementById("weight");
