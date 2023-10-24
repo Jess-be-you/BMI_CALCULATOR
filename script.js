@@ -1,3 +1,4 @@
+
 const bmiForm = document.getElementById("bmiForm");
 const heightUnitSelect = document.getElementById("heightUnit");
 const inchesMessage = document.getElementById("inchesMessage");
