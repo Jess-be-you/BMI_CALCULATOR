@@ -11,14 +11,20 @@
     <form id="bmiForm">
         <label for="height">Height:</label>
         <select id="heightUnit" name="heightUnit">
+            <option value="centimeters">CentiMeters</option>
+            <option value="feet">Feet/Inches</option>
             <option value="meters">Meters</option>
-            <option value="feet">Feet</option>
-            <option value="inches">Inches</option>
+            <option value="inches">Inches only</option>
         </select><br><br>
         <div id="heightBlock"></div>
+        <span id="inchesMessage" style="color: red;"></span>
         <br><br>
         <label for="weight">Weight (kg):</label>
-        <input type="text" id="weight" name="weight" min="0">
+        <select id="weightUnit" name="weightUnit">
+            <option value="kg">KiloGrams</option>
+            <option value="pounds">Pounds</option>
+        </select><br><br>
+        <div id="weightBlock"></div>
         <br><br>
         <input type="submit" value="Calculate BMI">
     </form>
